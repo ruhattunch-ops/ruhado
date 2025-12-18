@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import pandas as pd
 from io import BytesIO
 from datetime import datetime
@@ -142,3 +142,4 @@ if st.button("📥 FORM EXCEL OLARAK İNDİR", type="primary"):
         mime="application/vnd.ms-excel"
     )
     st.success("Excel dosyası hazırlandı! Butona basarak indirebilirsiniz.")
+
